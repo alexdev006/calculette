@@ -1,8 +1,11 @@
-import { useState } from 'react';
-import './App.css';
+import MainFrame from './Components/MainFrame.js';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="bg-slate-800 flex items-center justify-center h-screen">
+      <MainFrame />
+    </div>
+  );
 }
 
 export default App;
